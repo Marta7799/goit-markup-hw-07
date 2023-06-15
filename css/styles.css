@@ -174,8 +174,8 @@ a {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/effects-background.jpg);
-  background-size: cover;
-  max-width: 1600px;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 200px 0;
   height: 600px;
@@ -310,14 +310,6 @@ a {
   display: block;
   margin-bottom: 10px;
 }
-/*.phone {
-  display: block;
-  margin-bottom: 10px;
-}
-.email {
-  display: block;
-  margin-bottom: 10px;
-}*/
 .feedback {
   display: block;
   margin-bottom: 20px;
