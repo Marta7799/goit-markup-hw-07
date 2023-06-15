@@ -1,6 +1,6 @@
 @use "./utils/variables" as *;
-@import "./components/navigations";
-@import "./components/header";
+@use "./components/navigations";
+@use "./components/header";
 body {
-    color: black;
+  color: black;
 }
