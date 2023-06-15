@@ -1,6 +1,8 @@
 @use "./utils/variables" as *;
 @use "./components/navigations";
 @use "./components/header";
+@use "./components/body";
+@use "./components/modal";
 body {
   color: black;
 }
