@@ -1,18 +1,18 @@
 .team {
-  background-color: var(--background-team-color);
+  background-color: getColor("background-team-color");
   width: 100%;
   margin: 0 auto;
   align-items: center;
 }
 .team-list__item {
-  background: #ffffff;
+  background: getColor("background-color");
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team__title {
   font-weight: 700;
-  font-size: 36px;
+  font-size: $fontsize-title;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -28,7 +28,7 @@
 }
 .team-info__name {
   font-weight: 500;
-  font-size: 16px;
+  font-size: $fontsize-bigger;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -36,11 +36,11 @@
 }
 .team-info__job {
   font-weight: 400;
-  font-size: 16px;
+  font-size: $fontsize-bigger;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--other-text-color);
+  color: getColor("other-text-color");
   margin-left: auto;
   margin-bottom: 16px;
 }
@@ -55,16 +55,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+  color: getColor("icon-color");
   border-radius: 50%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $trans-color, $trans-backgroundcolor;
 }
 .socialmedia {
   fill: currentColor;
 }
 .team-icons__link:hover,
 .team-icons__link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: getColor("secondary-text-color");
+  background-color: getColor("accent-color");
 }
