@@ -58,16 +58,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* header */
-
-.header {
-  border-bottom: 1px solid var(--line-color);
-}
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/*HEADER*/
+.header {
+  border-bottom: 1px solid var(--line-color);
 }
 .header__wrapper {
   display: flex;
@@ -161,12 +163,8 @@ a {
   vertical-align: middle;
   fill: currentColor;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-/* index */
 
+/* index */
 .effects {
   background-color: var(--background-effects-color);
   background-image: linear-gradient(
@@ -181,7 +179,6 @@ a {
   height: 600px;
   margin: 0 auto;
 }
-
 .effects__title {
   font-weight: 900;
   font-size: 44px;
@@ -352,7 +349,6 @@ a {
   position: relative;
   left: 12px;
 }
-/* Check */
 
 .check {
   padding-left: 30px;
@@ -385,22 +381,13 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-/* Checked */
-
 .check__input:checked + .check__box {
   background-color: #4a90e2;
   background-image: url(../images/icon-checked.svg);
 }
-
-/* Focused */
-
 .check__input:focus + .check__box {
   box-shadow: 0 0 0 0.1em #4a90e2, 0 0 0 0.2em #7ed321;
 }
-
-/* Disabled */
-
 .check__input:disabled + .check__box {
   box-shadow: 0 0 0 0.1em #9b9b9b;
 }
@@ -428,6 +415,7 @@ a {
   align-items: center;
   margin: 0 auto;
 }
+
 .strength {
   padding-bottom: 0;
 }
@@ -606,11 +594,16 @@ a {
 .clients-icon__link:focus {
   color: var(--acent-color);
 }
+
 /* footer */
 .footer {
   background-color: var(--background-footer-color);
   font-style: normal;
   padding: 60px 0;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: baseline;
 }
 .footer__logo {
   font-family: "Raleway";
@@ -699,10 +692,6 @@ a {
 .join-list__link:hover {
   fill: #ffffff;
   background-color: #2196f3;
-}
-.footer__wrapper {
-  display: flex;
-  align-items: baseline;
 }
 .newsletter {
   margin-left: 78px;

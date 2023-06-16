@@ -1,18 +1,19 @@
 /*Utils*/
 @import "./utils/variables" as *;
+/*Base*/
+@import "./components/base";
+@import "./components/reset";
+/*Header*/
 @import "./components/header";
 /*Index*/
 @import "./components/modal";
 @import "./components/clients";
 @import "./components/doing";
 @import "./components/effects";
-@import "./components/footer";
 @import "./components/strength";
 @import "./components/team";
 /*Portfolio*/
 @import "./components/portfolio";
-/*Base*/
-@import "./components/base";
-@import "./components/container";
-@import "./components/body";
-@import "./components/reset";
+/*Footer*/
+@import "./components/footer";
+@import "./components/footer-newsletter";
