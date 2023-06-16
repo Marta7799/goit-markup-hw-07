@@ -17,9 +17,8 @@ $colors: (
 
 $main-font: "Roboto", sans-serif;
 $logo-font: "Raleway", sans-serif;
-$fontsize-normal: 16px;
-$fontsize-smaller: 14px;
-$fontsize-bigger: 18px;
+$fontsize-normal: 14px;
+$fontsize-bigger: 16px;
 $fontsize-title: 36px;
 
 $trans-transform: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -27,3 +26,4 @@ $trans-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $trans-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $trans-backgroundcolor: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $trans-border: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$trans-fill: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

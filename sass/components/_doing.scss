@@ -3,7 +3,7 @@
 
   &__title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: $fontsize-title;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
@@ -28,12 +28,11 @@
     position: absolute;
     z-index: 0;
     bottom: 0;
-    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: getColor ("secondary-text-color");
     display: flex;
     align-items: center;
     justify-content: center;
