@@ -1,8 +1,7 @@
 /*Utils*/
 @use "./utils/variables" as *;
-/*Base*/
-@import "./components/base";
 @import "./components/reset";
+@import "./components/base";
 /*Header*/
 @import "./components/header";
 /*Index*/

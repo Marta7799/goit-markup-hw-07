@@ -1,11 +1,11 @@
 .team {
-  background-color: etColor("background-team-color");
+  background-color: $background-team-color;
   width: 100%;
   margin: 0 auto;
   align-items: center;
 }
 .team-list__item {
-  background: getColor("background-color");
+  background: $background-color;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -35,8 +35,8 @@
   margin-bottom: 10px;
 }
 .team-info__job {
-  @extend.team-info_name;
-  color: getColor("other-text-color");
+  @extend .team-info_name !optional;
+  color: $other-text-color;
   margin-left: auto;
   margin-bottom: 16px;
 }
@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: getColor("icon-color");
+  color: $icon-color;
   border-radius: 50%;
   transition: $trans-color, $trans-backgroundcolor;
 }
@@ -60,6 +60,6 @@
 }
 .team-icons__link:hover,
 .team-icons__link:focus {
-  color: getColor("secondary-text-color");
-  background-color: getColor("accent-color");
+  color: $secondary-text-color;
+  background-color: $acc;
 }

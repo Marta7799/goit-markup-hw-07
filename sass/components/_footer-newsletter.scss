@@ -12,8 +12,8 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 0.06em;
-    color: getColor ("secondary-text-color");
-    background: getColor ("accent-color");
+    color: $secondary-text-color;
+    background: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin-left: 12px;
@@ -33,7 +33,7 @@
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    background-color: getColor ("background-footer-color");
+    background-color: $background-footer-color;
     border-radius: 4px;
     padding-left: 16px;
     font-weight: 400;
@@ -41,11 +41,11 @@
     line-height: 1.25;
     align-items: center;
     letter-spacing: 0.03em;
-    color: getColor ("footer-text-color");
+    color: $footer-text-color;
     transition: $trans-border;
   }
   &__input:hover,
   &__input:focus {
-    border: 1px solid getColor ("accent-color");
+    border: 1px solid $accent-color;
   }
 }

@@ -14,27 +14,27 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color:getColor("main-text-color");
+  color: $main-text-color;
   margin-right: 93px;
   padding-bottom: 25px;
   padding-top: 24px;
 }
 .header__logo--accent {
-  color:getColor(accent-color);
+  color: $accent-color;
 }
 .header__link:hover,
 .header__link:focus {
-  color:getColor(accent-color);
+  color: $accent-color;
 }
 .header__list {
-  display:flex;
+  display: flex;
 }
 .header__link {
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   padding: 32px 0;
-  transition:$trans-color;
+  transition: $trans-color;
 }
 .header__item {
   padding-top: 32px;
@@ -44,16 +44,16 @@
   margin-right: 46px;
 }
 .header__link--current {
-  color:getColor(accent-color);
-  position:relative;
+  color: $accent-color;
+  position: relative;
 }
 .header__link--current::after {
   content: "";
   width: 53px;
   height: 4px;
-  position:absolute;
+  position: absolute;
   bottom: 0;
-  background:getColor(accent-color);
+  background: $accent-color;
   left: 0;
 }
 .header__link--current:hover::after {
@@ -70,23 +70,23 @@
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color:getColor("other-text-color");
+  color: $other-text-color;
   padding-top: 32px;
   padding-bottom: 32px;
-  transition:$trans-color, $trans-fill;
+  transition: $trans-color, $trans-fill;
 }
 .contact__item:focus,
 .contact__item:hover {
-  color:getColor(accent-color);
-  fill:getColor(accent-color);
+  color: $accent-color;
+  fill: $accent-color;
 }
 .envelope-icons {
   margin-right: 10px;
-  vertical-align:middle;
-  fill:currentColor;
+  vertical-align: middle;
+  fill: currentColor;
 }
 .phone-icons {
   margin-right: 10px;
   vertical-align: middle;
-  fill:currentColor;
+  fill: currentColor;
 }
