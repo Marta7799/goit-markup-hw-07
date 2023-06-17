@@ -1,5 +1,5 @@
 /*Utils*/
-@import "./utils/variables" as *;
+@use "./utils/variables" as *;
 /*Base*/
 @import "./components/base";
 @import "./components/reset";
@@ -17,3 +17,4 @@
 /*Footer*/
 @import "./components/footer";
 @import "./components/footer-newsletter";
+@import "./components/footer-join-us";
