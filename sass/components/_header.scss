@@ -1,7 +1,5 @@
 .header {
-  border-bottom: 1px solid var(--line-color);
-}
-.header__wrapper {
+  border-bottom: 1px solid $line-color;
   display: flex;
   align-items: center;
 }
