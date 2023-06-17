@@ -1,5 +1,5 @@
 .team {
-  background-color: getColor("background-team-color");
+  background-color: etColor("background-team-color");
   width: 100%;
   margin: 0 auto;
   align-items: center;
@@ -35,11 +35,7 @@
   margin-bottom: 10px;
 }
 .team-info__job {
-  font-weight: 400;
-  font-size: $fontsize-bigger;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+  @extend.team-info_name;
   color: getColor("other-text-color");
   margin-left: auto;
   margin-bottom: 16px;

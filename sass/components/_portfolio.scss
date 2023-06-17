@@ -7,20 +7,20 @@
 .portfolio-list__button {
   font-family: inherit;
   font-weight: 500;
-  font-size: $fontsize-bigger;
+  font-size:$fontsize-bigger;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background: getColor("background-portfolio");
+  background:getColor("background-portfolio");
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
-  transition: $trans-color, $trans-backgroundcolor, $trans-shadow;
+  transition:$trans-color, $trans-backgroundcolor, $trans-shadow;
 }
 .portfolio-list__button:hover,
 .portfolio-list__button:focus {
   background-color: getColor("accent-color");
-  color: getColor("secondary-text-color");
+  color:getColor("secondary-text-color");
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -38,7 +38,7 @@
 }
 .portfolio-img-list__link {
   display: block;
-  transition: $trans-shadow;
+  transition:$trans-shadow;
 }
 .box {
   position: relative;
@@ -53,23 +53,23 @@
   right: 0;
   position: absolute;
   transform: translatey(100%);
-  transition: $trans-transform;
+  transition:$trans-transform;
 }
 .overlay p {
-  color: getColor("secondary-text-color");
+  color:getColor("secondary-text-color");
   padding: 56px 45px 49px 24px;
   margin: 0;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  background-color: getColor("accent-color");
+  background-color:getColor("accent-color");
 }
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
-  transform: translatey(0);
+  transform:translatey(0);
 }
 .term {
-  border: 1px solid grtColor("contener-color");
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
   border-top: 0;
 
@@ -84,6 +84,6 @@
     font-size: $fontsize-bigger;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: getColor("other-text-color");
+    color:getColor("other-text-color");
   }
 }
