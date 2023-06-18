@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0 auto;
   align-items: center;
-
   &__item {
     background: $background-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -58,12 +57,12 @@
     border-radius: 50%;
     transition: $trans-color, $trans-backgroundcolor;
   }
+  &__link:hover,
+  &__link:focus {
+    color: $secondary-text-color;
+    background-color: $acc;
+  }
 }
 .socialmedia {
   fill: currentColor;
-}
-.team-icons__link:hover,
-.team-icons__link:focus {
-  color: $secondary-text-color;
-  background-color: $acc;
 }

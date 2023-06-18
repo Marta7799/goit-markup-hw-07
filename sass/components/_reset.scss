@@ -28,3 +28,17 @@ a {
   text-decoration: none;
   color: inherit;
 }
+body {
+  font-family: roboto, sans-serif;
+  color: $main-text-color;
+  background-color: $background-color;
+  font-size: $fontsize-normal;
+  letter-spacing: 0.03em;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+svg {
+  fill: currentColor;
+}

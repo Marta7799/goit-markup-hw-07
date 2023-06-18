@@ -1,21 +1,14 @@
-/*Utils*/
-@use "./utils/variables";
-
-/*Components*/
-@import "./components/reset";
-@import "./components/base";
-/*Header*/
-@import "./components/header";
-/*Index*/
-@import "./components/modal";
-@import "./components/clients";
-@import "./components/doing";
-@import "./components/effects";
-@import "./components/strength";
-@import "./components/team";
-/*Portfolio*/
-@import "./components/portfolio";
-/*Footer*/
-@import "./components/footer";
-@import "./components/footer-newsletter";
-@import "./components/footer-join-us";
+@use "./utils/_variables";
+@import "./components/_reset";
+@import "./components/_container";
+@import "./components/_header";
+@import "./components/_modal";
+@import "./components/_clients";
+@import "./components/_doing";
+@import "./components/_effects";
+@import "./components/_strength";
+@import "./components/_team";
+@import "./components/_portfolio";
+@import "./components/_footer";
+@import "./components/_footer-newsletter";
+@import "./components/_footer-join-us";
