@@ -492,6 +492,7 @@ svg {
 .strengths__list {
   display: flex;
   gap: 30px;
+  margin-bottom: 94px;
 }
 .strengths__item {
   width: 270px;
