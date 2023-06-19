@@ -1,8 +1,10 @@
 .header {
   border-bottom: 1px solid $line-color;
-  display: flex;
   align-items: center;
   &__nav {
+    display: flex;
+  }
+  &__wrapper {
     display: flex;
   }
   &__logo {
